@@ -17,7 +17,8 @@ public class Main {
                 if (texto.matches("\\d+")) {
                     suma += Integer.parseInt(texto);
                     System.out.println("La suma es de: " + suma);
-                }
+                } else {
+                    System.out.println("Pueden ser solo digitos o palabra fin");
             } catch (IOException e) {
                 e.printStackTrace();
             }
