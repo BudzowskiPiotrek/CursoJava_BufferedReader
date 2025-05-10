@@ -19,6 +19,7 @@ public class Main {
                     System.out.println("La suma es de: " + suma);
                 } else {
                     System.out.println("Pueden ser solo digitos o palabra fin");
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -33,3 +34,4 @@ public class Main {
     }
 
 }
+
